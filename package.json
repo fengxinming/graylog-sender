@@ -1,0 +1,40 @@
+{
+  "name": "graylog-sender",
+  "version": "2.0.0",
+  "description": "A graylog sender with udp4",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles --config ./jest.config.js",
+    "example:graylog": "node ./examples/graylog/index.js"
+  },
+  "keywords": [
+    "graylog",
+    "graylog-sender",
+    "log",
+    "logging",
+    "logger",
+    "corie-logger"
+  ],
+  "author": "Jesse Feng",
+  "license": "MIT",
+  "dependencies": {
+    "clrsole": "^1.0.0-beta.1",
+    "corie-request": "^1.0.7",
+    "fastest-stable-stringify": "^2.0.2",
+    "generic-pool": "^3.5.0",
+    "internal-ip": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengxinming/graylog-sender.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fengxinming/graylog-sender/issues"
+  },
+  "homepage": "https://github.com/fengxinming/graylog-sender#readme"
+}
